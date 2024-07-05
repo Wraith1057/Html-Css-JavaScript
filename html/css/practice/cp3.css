@@ -1,0 +1,49 @@
+/* #d1 {
+    background-color: rgb(255, 0, 0);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#d2 {
+    background-color: rgb(246, 255, 0);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+#d3 {
+    background-color: rgb(55, 255, 0);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+} */
+
+/* =========================================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar {
+    height: 60px;
+    background-color: black;
+}
+
+button {
+    background-color: #f0880f;
+    color: black;
+}
+
+#logo {
+    color: #f0880f;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 200px;
+}
+
+#input{
+    color: rgb(72, 72, 72);
+}

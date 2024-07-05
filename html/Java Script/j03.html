@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Series</title>
+    <script>
+        function generateFibonacci() {
+            // Get the number of terms from the input field
+            var numTerms = parseInt(document.getElementById("numTerms").value);
+            // Initialize variables for the first two terms of the Fibonacci series
+            var firstTerm = 0;
+            var secondTerm = 1;
+            // Display the first two terms
+            document.getElementById("fibonacciSeries").innerHTML = firstTerm + ", " + secondTerm;
+            // Generate subsequent terms and display them
+            for (var i = 2; i < numTerms; i++) {
+                var nextTerm = firstTerm + secondTerm;
+                document.getElementById("fibonacciSeries").innerHTML += ", " + nextTerm;
+                firstTerm = secondTerm;
+                secondTerm = nextTerm;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Generate Fibonacci Series</h2>
+    <label for="numTerms">Number of Terms:</label>
+    <input type="number" id="numTerms" name="numTerms" min="1">
+    <button onclick="generateFibonacci()">Generate</button>
+    <p id="fibonacciSeries"></p>
+</body>
+
+</html>

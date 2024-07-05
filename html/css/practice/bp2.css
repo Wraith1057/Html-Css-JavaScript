@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+* {
+    font-family: 'Times New Roman';
+    color: rgb(240, 58, 58);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 191, 0);
+    text-transform: capitalize
+}
+
+#p2 {
+    font-family: Verdana;
+    color: rgb(46, 46, 254);
+}
+
+#outer {
+    font-size: 25px
+}
+
+#inner {
+    font-size: 15px
+}
